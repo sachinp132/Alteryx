@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="57">C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv;kc_house_data_2.csv;kc_house_data_3.csv;kc_house_data_4.csv;kc_house_data_5.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <AllowShareWrite>False</AllowShareWrite>
+            <FileNameEncoding>0</FileNameEncoding>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <IgnoreErrors>False</IgnoreErrors>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>|</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <FileFormatInner>0</FileFormatInner>
+            <LargeZipFiles>False</LargeZipFiles>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>All+5+files.zip
+Query=kc_house_data_1.csv;kc_house...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="date" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="price" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="bedrooms" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="bathrooms" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="sqft_living" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="sqft_lot" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="floors" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="waterfront" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="view" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="condition" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="sqft_above" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="sqft_basement" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="yr_built" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="yr_renovated" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="zipcode" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="lat" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="long" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="sqft_living15" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="sqft_lot15" size="254" source="File: C:\Users\sachi\Downloads\All+5+files.zip|||kc_house_data_1.csv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>assignment_2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="52d4d0cf-73e2-44e3-9907-49c28342622a" />
+      <Telemetry>
+        <PreviousWorkflowId value="0bedb008-0eaf-4d12-9632-3e15d9e28620" />
+        <OriginWorkflowId value="0bedb008-0eaf-4d12-9632-3e15d9e28620" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
